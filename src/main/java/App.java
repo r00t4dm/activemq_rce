@@ -15,7 +15,7 @@ public class App
     public static void main( String[] args )
     {
 
-        String brokerURL = "tcp://localhost:61616";
+        String brokerURL = "tcp://registry.meituan.com:8080";
         Connection connection = null;
         try {
             ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(brokerURL);
